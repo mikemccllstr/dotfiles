@@ -1,0 +1,4 @@
+dotfiles
+========
+
+Personal configuration preferences
