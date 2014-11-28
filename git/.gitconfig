@@ -1,0 +1,11 @@
+[user]
+        name = Mike McCallister
+        email = mike@mccllstr.com
+[core]
+        editor = sensible-editor
+	excludesfile = ~/.gitignore_global
+[color]
+        ui = true
+
+[push]
+	default = simple
