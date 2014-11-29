@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [ -z $(which stow) ]; then
+    echo "$0: ERROR, you need GNU stow installed" >&2
+    exit 1
+fi
+
+
 IS_ADMIN=0
 groups | grep -q '\badmins\b' && IS_ADMIN=1
 
