@@ -9,6 +9,7 @@ fi
 IS_ADMIN=0
 groups | grep -q '\badmins\b' && IS_ADMIN=1
 
+stow aspell
 stow bash
 stow debian
 stow emacs
