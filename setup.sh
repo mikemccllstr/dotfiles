@@ -9,6 +9,10 @@ fi
 configure() {
     echo "Configuring $1"
     stow $1
+    if [[ $? != 0 ]]; then
+	echo "Problems configuring $1. Consider executing:"
+	echo "    stow --adopt $1"
+    fi
 }
 
 configure_if_present() {
