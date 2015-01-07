@@ -31,6 +31,7 @@ configure git
 
 configure_if_present aspell
 configure_if_present emacs
+configure_if_present tmux
 
 # ----------------------------------------------------------------------------
 # Do more involved configurations
