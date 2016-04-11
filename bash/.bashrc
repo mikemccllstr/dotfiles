@@ -47,6 +47,7 @@ fi
 case "$TERM" in
     xterm-color) color_prompt=yes;;
     xterm) color_prompt=yes;;
+    screen) color_prompt=yes;;
 esac
 
 # uncomment for a colored prompt, if the terminal has the capability; turned
